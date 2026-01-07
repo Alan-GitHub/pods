@@ -1,0 +1,89 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CJPayment",
+    "printedName": "CJPayment",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CJPayment"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJPayment",
+        "printedName": "CJPayment",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CJPayment",
+                "printedName": "CJPayment.CJPayment",
+                "usr": "s:9CJPaymentAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9CJPaymentAACABycfc",
+            "mangledName": "$s9CJPaymentAACABycfc",
+            "moduleName": "CJPayment",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "testPrint",
+            "printedName": "testPrint()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CJPaymentAAC9testPrintyyF",
+            "mangledName": "$s9CJPaymentAAC9testPrintyyF",
+            "moduleName": "CJPayment",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9CJPaymentAAC",
+        "mangledName": "$s9CJPaymentAAC",
+        "moduleName": "CJPayment",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
