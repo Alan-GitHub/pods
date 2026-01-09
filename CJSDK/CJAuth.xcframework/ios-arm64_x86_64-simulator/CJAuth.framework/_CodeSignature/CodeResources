@@ -4,154 +4,154 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/CJCore-Swift.h</key>
+		<key>Headers/CJAuth-Swift.h</key>
 		<data>
-		lQB+AMl0Vr4zZzubm3uSG/i9t/g=
+		/4sQp8ETOk73qOtWnDZeDpQxxAM=
 		</data>
-		<key>Headers/CJCore-umbrella.h</key>
+		<key>Headers/CJAuth-umbrella.h</key>
 		<data>
-		kIXgeqfYhmYyUZNpMQjqm0L7c30=
+		1tRwjltWEL9eMaVWrR2ne4gn1R8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XghGK/0n4C5aWYvHhY1cGDdQ3Nw=
+		3wiFaLJjOAg6c+dzpniKh6474GM=
 		</data>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Sx2hhD43nnZSlFlbbD007zJU99E=
+		8KyEVRELUrNrfEOZA6PvrKsHZNc=
 		</data>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XI8hh6mEMlE1dNfe+V/keH6dsD8=
+		UeDtH8oYFfcU6IxU01Ts2Y9ZVBo=
 		</data>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DdAgTV+G5Zy+qkPd4MYy7kINGxU=
+		t723L5m/tsteckrEJhnGvmhy2t0=
 		</data>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XI8hh6mEMlE1dNfe+V/keH6dsD8=
+		UeDtH8oYFfcU6IxU01Ts2Y9ZVBo=
 		</data>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KyaICFmALFj/IyK0Iy7WINruCyg=
+		48H5BKBok2fXYMhvA/p0733BPjI=
 		</data>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Sx2hhD43nnZSlFlbbD007zJU99E=
+		8KyEVRELUrNrfEOZA6PvrKsHZNc=
 		</data>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7wd97b+BoPU+LKB5m8/fHlxnTR8=
+		Osy1tE3PQvtBGRQfbW7fp/iSevY=
 		</data>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		d57sqLugPGsH5a0pCf3r0zCnP3Y=
+		m9IfBTYP3sSAymaLI0FR09DSkR8=
 		</data>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7wd97b+BoPU+LKB5m8/fHlxnTR8=
+		Osy1tE3PQvtBGRQfbW7fp/iSevY=
 		</data>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pedKdXuEIjnQF0obNYp8Z96V+qg=
+		pP+y7Sz4bK0JPCjPX3wCG7pRH8A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		tXZszoIh2B5F2j2UdefzFCuseUU=
+		MfbDjT3EcHk33HGsikPyix8wAYA=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/CJCore-Swift.h</key>
+		<key>Headers/CJAuth-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K2ZFqRX4YLX0zZKWgsJaQglTGjjSefpOdC3ZIYHUi5k=
+			Ru4n+dmNS9IKQG3TyhqxoJkodT5B4O3tcJY1oDGAI70=
 			</data>
 		</dict>
-		<key>Headers/CJCore-umbrella.h</key>
+		<key>Headers/CJAuth-umbrella.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dxUe5KAwJhr3MuSY6skm7FJ6w4rEOpuPGs3yUc2l4xw=
+			PSVkgy6X2PNJFJDC11QA8Cbp5/+KA6R9f39v+qd9BuE=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OxdPt3ISNWyRxRaMHVPWRkaJ80W/Ium+qCc8W+rcgy0=
+			yL1bal2yqqgMxy+AFJsvjWohMY3Im8CEFYsSA5tXvD0=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJTsPm0HBAHywWZEyk1XfIlrmloD8NgnKaJoQV02M3Q=
+			ySykqhyenamdEpsU9pF1Xq3uQamITmBA0iseksF7rmY=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FMBl6oBiKuIs2DoLPINHmllRDAGVoWE8g+yo18tgCqA=
+			4iRsIYHo5K96omDXbm8oF2GwHjtFpOZcl6nm1pE8JkA=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJTsPm0HBAHywWZEyk1XfIlrmloD8NgnKaJoQV02M3Q=
+			ySykqhyenamdEpsU9pF1Xq3uQamITmBA0iseksF7rmY=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/CJAuth.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z6vkR+PPIXWIgQUHvFXL0s1JfOADKmbzuLEqOlTTu8I=
+			+FIOoEUZSQHUkUpp1C67800Lj7oAhcWqLQXmP5t14dA=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OxdPt3ISNWyRxRaMHVPWRkaJ80W/Ium+qCc8W+rcgy0=
+			yL1bal2yqqgMxy+AFJsvjWohMY3Im8CEFYsSA5tXvD0=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zhmAHsBPDZGyfH4aqU4/GQ/CQPKXOF2V4DXCa4uLMXQ=
+			XB8XZlPLrbcb7adTQUjHVnJPcX/6fLk+Rby8ydHUPos=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cp4JuIYejLH5Fb5xVGBkWMb4eEXfbqMX88z5/ygyWoQ=
+			OqybRNIdsf+271P2ZP4aSLO4ylZH6ZfTlDEgGJFknzQ=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zhmAHsBPDZGyfH4aqU4/GQ/CQPKXOF2V4DXCa4uLMXQ=
+			XB8XZlPLrbcb7adTQUjHVnJPcX/6fLk+Rby8ydHUPos=
 			</data>
 		</dict>
-		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/CJAuth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8dYOqcW/fJZSZ70DkWIlfkSS9yBhJWEW1cSbsqaJAKo=
+			d9PvUIk2jyZR0zyh9uU3Q05Ad02bLGo0coaMI4UeS8o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0HKip2B7RiPYuXhq7ddM5PkBhnsbPhCNWGCC2PtHjac=
+			D8KFrAw5/oddKSfc8JVKK1TbHeMeXHOVcQ5uvHCUjMg=
 			</data>
 		</dict>
 	</dict>

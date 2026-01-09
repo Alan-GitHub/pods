@@ -1,0 +1,191 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CJAuth",
+    "printedName": "CJAuth",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJAppAuth",
+        "printedName": "CJAppAuth",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "signInApple",
+            "printedName": "signInApple()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC11signInAppleyyKFZ",
+            "mangledName": "$s6CJAuth9CJAppAuthC11signInAppleyyKFZ",
+            "moduleName": "CJAuth",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signInFacebook",
+            "printedName": "signInFacebook()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC14signInFacebookyyKFZ",
+            "mangledName": "$s6CJAuth9CJAppAuthC14signInFacebookyyKFZ",
+            "moduleName": "CJAuth",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signInTwitter",
+            "printedName": "signInTwitter()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC13signInTwitteryyKFZ",
+            "mangledName": "$s6CJAuth9CJAppAuthC13signInTwitteryyKFZ",
+            "moduleName": "CJAuth",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signInLine",
+            "printedName": "signInLine()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC10signInLineyyKFZ",
+            "mangledName": "$s6CJAuth9CJAppAuthC10signInLineyyKFZ",
+            "moduleName": "CJAuth",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signInNaver",
+            "printedName": "signInNaver()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC11signInNaveryyKFZ",
+            "mangledName": "$s6CJAuth9CJAppAuthC11signInNaveryyKFZ",
+            "moduleName": "CJAuth",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "signInEmail",
+            "printedName": "signInEmail()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC11signInEmailyyKFZ",
+            "mangledName": "$s6CJAuth9CJAppAuthC11signInEmailyyKFZ",
+            "moduleName": "CJAuth",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6CJAuth9CJAppAuthC",
+        "mangledName": "$s6CJAuth9CJAppAuthC",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

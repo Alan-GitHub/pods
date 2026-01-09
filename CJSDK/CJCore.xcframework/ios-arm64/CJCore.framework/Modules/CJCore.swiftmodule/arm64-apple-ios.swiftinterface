@@ -1,15 +1,49 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-4.1.50 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CJCore
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CJCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 @_exported import CJCore
-import Foundation
+import Moya
 import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public class CJCore {
-  public init()
-  public func testPrint()
+@_hasMissingDesignatedInitializers public class CJAppCore {
+  public static func register(appkey: Swift.String, environment: CJCore.CJEnvironment = .production) throws
   @objc deinit
 }
+public enum CJEnvironment {
+  case production, sandbox
+  public static func == (a: CJCore.CJEnvironment, b: CJCore.CJEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CJAppError : Swift.Error {
+  case Invalid_Appkey
+  public static func == (a: CJCore.CJAppError, b: CJCore.CJAppError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CJAuthMethod {
+  case apple
+  case facebook
+  case twitter
+  case line
+  case naver
+  case email
+  public static func == (a: CJCore.CJAuthMethod, b: CJCore.CJAuthMethod) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension CJCore.CJEnvironment : Swift.Equatable {}
+extension CJCore.CJEnvironment : Swift.Hashable {}
+extension CJCore.CJAppError : Swift.Equatable {}
+extension CJCore.CJAppError : Swift.Hashable {}
+extension CJCore.CJAuthMethod : Swift.Equatable {}
+extension CJCore.CJAuthMethod : Swift.Hashable {}
