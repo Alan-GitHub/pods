@@ -1,0 +1,1488 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CJCore",
+    "printedName": "CJCore",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "CJAppConfig",
+        "printedName": "CJAppConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appInfo",
+            "printedName": "appInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CJCore.CJAppInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAppInfo",
+                    "printedName": "CJCore.CJAppInfo",
+                    "usr": "s:6CJCore9CJAppInfoV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJCore11CJAppConfigO7appInfoAA0bE0VSgvpZ",
+            "mangledName": "$s6CJCore11CJAppConfigO7appInfoAA0bE0VSgvpZ",
+            "moduleName": "CJCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CJCore.CJAppInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAppInfo",
+                        "printedName": "CJCore.CJAppInfo",
+                        "usr": "s:6CJCore9CJAppInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore11CJAppConfigO7appInfoAA0bE0VSgvgZ",
+                "mangledName": "$s6CJCore11CJAppConfigO7appInfoAA0bE0VSgvgZ",
+                "moduleName": "CJCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CJCore.CJAppInfo?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAppInfo",
+                        "printedName": "CJCore.CJAppInfo",
+                        "usr": "s:6CJCore9CJAppInfoV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore11CJAppConfigO7appInfoAA0bE0VSgvsZ",
+                "mangledName": "$s6CJCore11CJAppConfigO7appInfoAA0bE0VSgvsZ",
+                "moduleName": "CJCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore11CJAppConfigO7appInfoAA0bE0VSgvMZ",
+                "mangledName": "$s6CJCore11CJAppConfigO7appInfoAA0bE0VSgvMZ",
+                "moduleName": "CJCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6CJCore11CJAppConfigO",
+        "mangledName": "$s6CJCore11CJAppConfigO",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJAppInfo",
+        "printedName": "CJAppInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CJAppInfo",
+                "printedName": "CJCore.CJAppInfo",
+                "usr": "s:6CJCore9CJAppInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CJCore9CJAppInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6CJCore9CJAppInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJCore9CJAppInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6CJCore9CJAppInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6CJCore9CJAppInfoV",
+        "mangledName": "$s6CJCore9CJAppInfoV",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJLoginMethodItem",
+        "printedName": "CJLoginMethodItem",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CJLoginMethodItem",
+                "printedName": "CJCore.CJLoginMethodItem",
+                "usr": "s:6CJCore17CJLoginMethodItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CJCore17CJLoginMethodItemV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6CJCore17CJLoginMethodItemV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJCore17CJLoginMethodItemV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6CJCore17CJLoginMethodItemV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6CJCore17CJLoginMethodItemV",
+        "mangledName": "$s6CJCore17CJLoginMethodItemV",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJAppCore",
+        "printedName": "CJAppCore",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(appkey:appSecret:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CJEnvironment",
+                "printedName": "CJCore.CJEnvironment",
+                "hasDefaultArg": true,
+                "usr": "s:6CJCore13CJEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJCore9CJAppCoreC8register6appkey9appSecret11environmentySS_SSAA13CJEnvironmentOtKFZ",
+            "mangledName": "$s6CJCore9CJAppCoreC8register6appkey9appSecret11environmentySS_SSAA13CJEnvironmentOtKFZ",
+            "moduleName": "CJCore",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6CJCore9CJAppCoreC",
+        "mangledName": "$s6CJCore9CJAppCoreC",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJEnvironment",
+        "printedName": "CJEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "production",
+            "printedName": "production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJEnvironment.Type) -> CJCore.CJEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJEnvironment",
+                    "printedName": "CJCore.CJEnvironment",
+                    "usr": "s:6CJCore13CJEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJEnvironment",
+                        "printedName": "CJCore.CJEnvironment",
+                        "usr": "s:6CJCore13CJEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore13CJEnvironmentO10productionyA2CmF",
+            "mangledName": "$s6CJCore13CJEnvironmentO10productionyA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Var",
+            "name": "sandbox",
+            "printedName": "sandbox",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJEnvironment.Type) -> CJCore.CJEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJEnvironment",
+                    "printedName": "CJCore.CJEnvironment",
+                    "usr": "s:6CJCore13CJEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJEnvironment",
+                        "printedName": "CJCore.CJEnvironment",
+                        "usr": "s:6CJCore13CJEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore13CJEnvironmentO7sandboxyA2CmF",
+            "mangledName": "$s6CJCore13CJEnvironmentO7sandboxyA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CJEnvironment",
+                "printedName": "CJCore.CJEnvironment",
+                "usr": "s:6CJCore13CJEnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CJEnvironment",
+                "printedName": "CJCore.CJEnvironment",
+                "usr": "s:6CJCore13CJEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJCore13CJEnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6CJCore13CJEnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "CJCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJCore13CJEnvironmentO9hashValueSivp",
+            "mangledName": "$s6CJCore13CJEnvironmentO9hashValueSivp",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore13CJEnvironmentO9hashValueSivg",
+                "mangledName": "$s6CJCore13CJEnvironmentO9hashValueSivg",
+                "moduleName": "CJCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJCore13CJEnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6CJCore13CJEnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6CJCore13CJEnvironmentO",
+        "mangledName": "$s6CJCore13CJEnvironmentO",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJAppError",
+        "printedName": "CJAppError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "InvalidAppkey",
+            "printedName": "InvalidAppkey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJAppError.Type) -> CJCore.CJAppError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAppError",
+                    "printedName": "CJCore.CJAppError",
+                    "usr": "s:6CJCore10CJAppErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJAppError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAppError",
+                        "printedName": "CJCore.CJAppError",
+                        "usr": "s:6CJCore10CJAppErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore10CJAppErrorO13InvalidAppkeyyA2CmF",
+            "mangledName": "$s6CJCore10CJAppErrorO13InvalidAppkeyyA2CmF",
+            "moduleName": "CJCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "InvalidAppScret",
+            "printedName": "InvalidAppScret",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJAppError.Type) -> CJCore.CJAppError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAppError",
+                    "printedName": "CJCore.CJAppError",
+                    "usr": "s:6CJCore10CJAppErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJAppError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAppError",
+                        "printedName": "CJCore.CJAppError",
+                        "usr": "s:6CJCore10CJAppErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore10CJAppErrorO15InvalidAppScretyA2CmF",
+            "mangledName": "$s6CJCore10CJAppErrorO15InvalidAppScretyA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CJAppError",
+                "printedName": "CJCore.CJAppError",
+                "usr": "s:6CJCore10CJAppErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CJAppError",
+                "printedName": "CJCore.CJAppError",
+                "usr": "s:6CJCore10CJAppErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJCore10CJAppErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6CJCore10CJAppErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "CJCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJCore10CJAppErrorO9hashValueSivp",
+            "mangledName": "$s6CJCore10CJAppErrorO9hashValueSivp",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore10CJAppErrorO9hashValueSivg",
+                "mangledName": "$s6CJCore10CJAppErrorO9hashValueSivg",
+                "moduleName": "CJCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJCore10CJAppErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6CJCore10CJAppErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6CJCore10CJAppErrorO",
+        "mangledName": "$s6CJCore10CJAppErrorO",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJAuthMethod",
+        "printedName": "CJAuthMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "guest",
+            "printedName": "guest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJAuthMethod.Type) -> CJCore.CJAuthMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAuthMethod",
+                    "printedName": "CJCore.CJAuthMethod",
+                    "usr": "s:6CJCore12CJAuthMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJAuthMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAuthMethod",
+                        "printedName": "CJCore.CJAuthMethod",
+                        "usr": "s:6CJCore12CJAuthMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore12CJAuthMethodO5guestyA2CmF",
+            "mangledName": "$s6CJCore12CJAuthMethodO5guestyA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Var",
+            "name": "apple",
+            "printedName": "apple",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJAuthMethod.Type) -> CJCore.CJAuthMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAuthMethod",
+                    "printedName": "CJCore.CJAuthMethod",
+                    "usr": "s:6CJCore12CJAuthMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJAuthMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAuthMethod",
+                        "printedName": "CJCore.CJAuthMethod",
+                        "usr": "s:6CJCore12CJAuthMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore12CJAuthMethodO5appleyA2CmF",
+            "mangledName": "$s6CJCore12CJAuthMethodO5appleyA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Var",
+            "name": "facebook",
+            "printedName": "facebook",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJAuthMethod.Type) -> CJCore.CJAuthMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAuthMethod",
+                    "printedName": "CJCore.CJAuthMethod",
+                    "usr": "s:6CJCore12CJAuthMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJAuthMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAuthMethod",
+                        "printedName": "CJCore.CJAuthMethod",
+                        "usr": "s:6CJCore12CJAuthMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore12CJAuthMethodO8facebookyA2CmF",
+            "mangledName": "$s6CJCore12CJAuthMethodO8facebookyA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Var",
+            "name": "twitter",
+            "printedName": "twitter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJAuthMethod.Type) -> CJCore.CJAuthMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAuthMethod",
+                    "printedName": "CJCore.CJAuthMethod",
+                    "usr": "s:6CJCore12CJAuthMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJAuthMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAuthMethod",
+                        "printedName": "CJCore.CJAuthMethod",
+                        "usr": "s:6CJCore12CJAuthMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore12CJAuthMethodO7twitteryA2CmF",
+            "mangledName": "$s6CJCore12CJAuthMethodO7twitteryA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Var",
+            "name": "line",
+            "printedName": "line",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJAuthMethod.Type) -> CJCore.CJAuthMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAuthMethod",
+                    "printedName": "CJCore.CJAuthMethod",
+                    "usr": "s:6CJCore12CJAuthMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJAuthMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAuthMethod",
+                        "printedName": "CJCore.CJAuthMethod",
+                        "usr": "s:6CJCore12CJAuthMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore12CJAuthMethodO4lineyA2CmF",
+            "mangledName": "$s6CJCore12CJAuthMethodO4lineyA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Var",
+            "name": "naver",
+            "printedName": "naver",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJAuthMethod.Type) -> CJCore.CJAuthMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAuthMethod",
+                    "printedName": "CJCore.CJAuthMethod",
+                    "usr": "s:6CJCore12CJAuthMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJAuthMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAuthMethod",
+                        "printedName": "CJCore.CJAuthMethod",
+                        "usr": "s:6CJCore12CJAuthMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore12CJAuthMethodO5naveryA2CmF",
+            "mangledName": "$s6CJCore12CJAuthMethodO5naveryA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CJCore.CJAuthMethod.Type) -> CJCore.CJAuthMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAuthMethod",
+                    "printedName": "CJCore.CJAuthMethod",
+                    "usr": "s:6CJCore12CJAuthMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CJCore.CJAuthMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAuthMethod",
+                        "printedName": "CJCore.CJAuthMethod",
+                        "usr": "s:6CJCore12CJAuthMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6CJCore12CJAuthMethodO5emailyA2CmF",
+            "mangledName": "$s6CJCore12CJAuthMethodO5emailyA2CmF",
+            "moduleName": "CJCore"
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJCore12CJAuthMethodO6methodSSvp",
+            "mangledName": "$s6CJCore12CJAuthMethodO6methodSSvp",
+            "moduleName": "CJCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore12CJAuthMethodO6methodSSvg",
+                "mangledName": "$s6CJCore12CJAuthMethodO6methodSSvg",
+                "moduleName": "CJCore",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CJCore.CJAuthMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAuthMethod",
+                    "printedName": "CJCore.CJAuthMethod",
+                    "usr": "s:6CJCore12CJAuthMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CJCore12CJAuthMethodO8rawValueACSgSi_tcfc",
+            "mangledName": "$s6CJCore12CJAuthMethodO8rawValueACSgSi_tcfc",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJCore12CJAuthMethodO8rawValueSivp",
+            "mangledName": "$s6CJCore12CJAuthMethodO8rawValueSivp",
+            "moduleName": "CJCore",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore12CJAuthMethodO8rawValueSivg",
+                "mangledName": "$s6CJCore12CJAuthMethodO8rawValueSivg",
+                "moduleName": "CJCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6CJCore12CJAuthMethodO",
+        "mangledName": "$s6CJCore12CJAuthMethodO",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "CJCore"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "CJCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJRequestInterceptor",
+        "printedName": "CJRequestInterceptor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "prepare",
+            "printedName": "prepare(_:target:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TargetType",
+                "printedName": "any Moya.TargetType",
+                "usr": "s:4Moya10TargetTypeP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJCore20CJRequestInterceptorC7prepare_6target10Foundation10URLRequestVAH_4Moya10TargetType_ptF",
+            "mangledName": "$s6CJCore20CJRequestInterceptorC7prepare_6target10Foundation10URLRequestVAH_4Moya10TargetType_ptF",
+            "moduleName": "CJCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6CJCore20CJRequestInterceptorC",
+        "mangledName": "$s6CJCore20CJRequestInterceptorC",
+        "moduleName": "CJCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PluginType",
+            "printedName": "PluginType",
+            "usr": "s:4Moya10PluginTypeP",
+            "mangledName": "$s4Moya10PluginTypeP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Utils\/CJAppConfigWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 198,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Utils\/CJAppConfigWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 16,
+      "value": "\"appconfig.data\""
+    },
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Utils\/CJConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Utils\/CJConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 8,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Utils\/CJConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Utils\/CJConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333,
+      "length": 4,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Utils\/CJConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 347,
+      "length": 5,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Utils\/CJConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 5,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Network\/CJNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 148,
+      "length": 26,
+      "value": "\"http:\/\/192.168.1.21:8191\""
+    },
+    {
+      "filePath": "\/Users\/heyong\/Documents\/workspace\/flutter_game_sdk\/CJCore\/CJCore\/Classes\/Network\/CJNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

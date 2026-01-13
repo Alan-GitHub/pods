@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CJCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+@_exported import CJCore
+import CryptoKit
+import Moya
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum CJAppConfig {
+  public static var appInfo: CJCore.CJAppInfo?
+}
+public struct CJAppInfo : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CJLoginMethodItem : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class CJAppCore {
+  public static func register(appkey: Swift.String, appSecret: Swift.String, environment: CJCore.CJEnvironment = .production) throws
+  @objc deinit
+}
+public enum CJEnvironment {
+  case production, sandbox
+  public static func == (a: CJCore.CJEnvironment, b: CJCore.CJEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CJAppError : Swift.Error {
+  case InvalidAppkey
+  case InvalidAppScret
+  public static func == (a: CJCore.CJAppError, b: CJCore.CJAppError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CJAuthMethod : Swift.Int {
+  case guest
+  case apple
+  case facebook
+  case twitter
+  case line
+  case naver
+  case email
+  public var method: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class CJRequestInterceptor : Moya.PluginType {
+  public func prepare(_ request: Foundation.URLRequest, target: any Moya.TargetType) -> Foundation.URLRequest
+  @objc deinit
+}
+extension CJCore.CJEnvironment : Swift.Equatable {}
+extension CJCore.CJEnvironment : Swift.Hashable {}
+extension CJCore.CJAppError : Swift.Equatable {}
+extension CJCore.CJAppError : Swift.Hashable {}
+extension CJCore.CJAuthMethod : Swift.Equatable {}
+extension CJCore.CJAuthMethod : Swift.Hashable {}
+extension CJCore.CJAuthMethod : Swift.RawRepresentable {}
