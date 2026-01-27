@@ -4,9 +4,31 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>CJCore.bundle/Info.plist</key>
+		<data>
+		CZJDRSS4BuwYtCIP17qwgGV4c3A=
+		</data>
+		<key>CJCore.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PwMd7sYiF5Warg2GuuCCki34avw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CJCore.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h2CRiMfdxx8PC/bQ5EveqXgf6/s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/CJCore-Swift.h</key>
 		<data>
-		lQB+AMl0Vr4zZzubm3uSG/i9t/g=
+		o/z+yIkbaBCKR/LE9ymETpCZcqc=
 		</data>
 		<key>Headers/CJCore-umbrella.h</key>
 		<data>
@@ -14,47 +36,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ts/kL70CfeGFx+DT2H2sKsBN4sg=
+		lM+dyCs/4sILmD9VPZWXyBRMk6U=
 		</data>
 		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Bso8s4nkIax6aAmbLYaVWK+b8oM=
+		ONKy93/A1De5T34nfBItGcKEIsA=
 		</data>
 		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		C0Or0br3RDqXTPGhQtQ3Xu8hWrA=
+		/FafKbBWYJTeOTSxgmZXok0e63s=
 		</data>
 		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		1dVbtpbzVIoeXwpYIZVRJeE+AsA=
+		Ve7YRoL3A+/yTwGbmjJOWi6Dek0=
 		</data>
 		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		C0Or0br3RDqXTPGhQtQ3Xu8hWrA=
+		/FafKbBWYJTeOTSxgmZXok0e63s=
 		</data>
 		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jlxfAl8onCtXgj+w/SlzB/Xl0Sg=
+		Ar7oNBupxuoqBrTWEUEc7ESfM8k=
 		</data>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Bso8s4nkIax6aAmbLYaVWK+b8oM=
+		ONKy93/A1De5T34nfBItGcKEIsA=
 		</data>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hdLQXXZ7BjzbctbIIiNIcOsHdBU=
+		rroRnr81RyYNVbMTresq9IHR4j0=
 		</data>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		x1GPrSICFNc6r25ujKUG9JDNPi8=
+		Usxh0mtW4XfBDjty/JrsBNcIidM=
 		</data>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hdLQXXZ7BjzbctbIIiNIcOsHdBU=
+		rroRnr81RyYNVbMTresq9IHR4j0=
 		</data>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4sPKkCpSGEdK/XC9vDGiHkfSd4M=
+		iUAfQQfkYNGc8OAagy2rMjDBQR4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,11 +85,36 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>CJCore.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zA2tys9h6MqO32X4nP/i2kSrmnpcBDpt5hqT4Jgx6e4=
+			</data>
+		</dict>
+		<key>CJCore.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			roLwLiwQKxDdctIilArywui6FvwYXY3uLRbY4+YyOxc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>CJCore.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H0sXknKCPlOj/u1V7XxZKrS2P1+LT8Km3c45NDSyD0g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/CJCore-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K2ZFqRX4YLX0zZKWgsJaQglTGjjSefpOdC3ZIYHUi5k=
+			Fu+k3WZTg+4H+FBZldb5VYn3zXhSNu7D3OVDbiWdx0U=
 			</data>
 		</dict>
 		<key>Headers/CJCore-umbrella.h</key>
@@ -81,70 +128,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			crE+SwXBhJdO+KcZsfZ0lDvsXz52bjLJ9yDTdSFzC4M=
+			GN5x7gRxkIRufUoqiFfu1mbaMnCLiw3CaiwZ+LexAcM=
 			</data>
 		</dict>
 		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PW8RJ5lvy5Eq4mWgriLByY6K5l4lK3N4dU4JIZIIOVI=
+			Ri24Xe40H4bOXu+aMsdks3lTw7Ms7Gt24+tS+uuYx58=
 			</data>
 		</dict>
 		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ikHNSS9myso3GGiJQJBzhSvTqWZSBkw2AcpBhSSVsoo=
+			icYQZvwXrwlagqvVMy9k1TJrZWx/eLrbFlD3nlNeWPE=
 			</data>
 		</dict>
 		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PW8RJ5lvy5Eq4mWgriLByY6K5l4lK3N4dU4JIZIIOVI=
+			Ri24Xe40H4bOXu+aMsdks3lTw7Ms7Gt24+tS+uuYx58=
 			</data>
 		</dict>
 		<key>Modules/CJCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7WHL9rMriC7/PEKdtRZcp5CtvsLC5Ds3FnHje2AdUpk=
+			kzyv4Fag6/brtHbnPUCGJkR25dyviv8erXDs3/n2jrY=
 			</data>
 		</dict>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			crE+SwXBhJdO+KcZsfZ0lDvsXz52bjLJ9yDTdSFzC4M=
+			GN5x7gRxkIRufUoqiFfu1mbaMnCLiw3CaiwZ+LexAcM=
 			</data>
 		</dict>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fj6IclaS2OJq4UU08OWHzIZXxutIHn4XZbQ/6wGi2c4=
+			CYJD1SsYTPKLdxmNADIBjoLd/DGznuhT5n09gknei6Y=
 			</data>
 		</dict>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IKe6kt31JQCkkp/fUlMUJSJu3H39vorpIijOD70yMLI=
+			crCGiYtJqLPCbxDeo/dfhZKGKOQi7yf9/Ea8OqzZoHs=
 			</data>
 		</dict>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fj6IclaS2OJq4UU08OWHzIZXxutIHn4XZbQ/6wGi2c4=
+			CYJD1SsYTPKLdxmNADIBjoLd/DGznuhT5n09gknei6Y=
 			</data>
 		</dict>
 		<key>Modules/CJCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nbEhO+fdHU5KCDXHzjxK5BS1w7/VwnIsqLZBIsKaNIM=
+			eiJbI4oPLyYzuUBKM/0rdU6NmgwJZdTz+ezu9mZ+jzA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
